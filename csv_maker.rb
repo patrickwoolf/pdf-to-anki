@@ -13,8 +13,8 @@ question_page_if_contains = [
 ]
 #question_page_if_contains = "copy"
 
-relative_input_directory = "../raw_pdfs/"
-relative_output_directory = "../output/"
+relative_input_directory = "./raw_pdfs/"
+relative_output_directory = "./output/"
 pdfs = Dir.entries(relative_input_directory)
 
 pdfs.each do |individual_pdf|

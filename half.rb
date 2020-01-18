@@ -12,8 +12,8 @@ question_page_if_contains = [
 "dendecks", "dental decks", "dentaldecks", "dccks", "deneldecks", "decfts", "dertal", "dedta", "ddtal", "dmtal"
 ]
 
-relative_input_directory = "../raw_pdfs/"
-relative_output_directory = "../output/"
+relative_input_directory = "./raw_pdfs/"
+relative_output_directory = "./output/"
 pdfs = Dir.entries(relative_input_directory)
 
 pdfs.each do |individual_pdf|
